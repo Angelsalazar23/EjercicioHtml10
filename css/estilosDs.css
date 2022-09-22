@@ -1,0 +1,91 @@
+
+html{
+
+    font-size: 10px;
+}
+
+
+div {
+
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.contenedor {
+
+
+    background-color: rgb(162, 232, 232);
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    
+
+ 
+    
+
+
+
+
+
+}
+
+.contenedor .barra {
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(184, 253, 230);
+    margin: 0.5rem;
+    padding: 1rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.contenedor .barra div{
+
+    padding: 0.5rem;
+
+}
+
+.contenedor .seccionprincipal    {
+
+
+
+
+    display: flex;
+    background-color: rgb(250, 235, 216);
+    flex-grow: 3;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    max-width: 100%;
+    
+   
+ 
+ 
+
+
+
+}
+
+@media(max-width:412px){
+
+
+    .contenedor{
+
+        flex-direction: column-reverse;
+        
+    }
+
+    .contenedor .barra{
+
+        flex-direction: row;
+        justify-content: center;
+        
+        
+
+    }
+
+}
